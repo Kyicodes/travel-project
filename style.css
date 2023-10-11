@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.6)),
@@ -45,4 +49,30 @@ h2 {
     line-height: 21px;
     padding: 15px 30px;
     background-color: #fff;
+}
+
+.why-tokyo {
+    background-color: #fff;
+}
+
+.why {
+    color: #272044;
+    opacity: 30%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.headline {
+    color: #272044;
+    line-height: 50px;
+    font-size: 40px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #272044;
+    opacity: 70%;
 }
