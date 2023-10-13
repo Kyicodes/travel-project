@@ -236,12 +236,7 @@ h6 {
     margin: 30px;
 }
 
-@media (max-width:900px) {
-
-    .hero {
-        width: 900px;
-        height: 900px;
-    }
+@media (max-width:1000px) {
 
     .hero-text {
         padding-top: 155px;
@@ -282,33 +277,16 @@ h6 {
         line-height: 14px;
     }
 
+    .why {
+        display: block;
+    }
+
     .gallery {
         display: none;
     }
 
-    .more {
-        margin: 10px;
+    section {
+        display: block;
     }
 
-    .info-links {
-        font-size: 13px;
-    }
-
-    h6 {
-        font-size: 10px;
-        line-height: 15px;
-    }
-
-    .about-paragraph {
-        font-size: 13px;
-        line-height: 14px;
-    }
-
-    .about-me {
-        margin: 10px
-    }
-
-    .about-website {
-        margin: 10px;
-    }
 }
